@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React, { useState }  from "react";
+import SocialIcons from "../Common/SocialIcons";
 
 const Contact = () => {
   /**
@@ -156,7 +157,7 @@ const Contact = () => {
                       htmlFor="default-checkbox"
                       className="flex max-w-[425px] cursor-pointer select-none pl-5"
                     >
-                      By clicking Checkbox, you agree to use our “Form” terms
+                      By clicking Checkbox, you agree to use our "Form" terms
                       And consent cookie usage in browser.
                     </label>
                   </div>
@@ -229,6 +230,13 @@ const Contact = () => {
                 <p>
                   <a href="#">+1 (864) 256-1502</a>
                 </p>
+              </div>
+
+              <div className="mt-8">
+                <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
+                  Follow Us
+                </h4>
+                <SocialIcons />
               </div>
             </motion.div>
           </div>
